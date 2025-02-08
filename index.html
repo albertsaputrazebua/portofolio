@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Albert Saputra Zebua</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  <meta name="description" content="Portofolio Albert Saputra Zebua, seorang Software Engineer dan Data Scientist.">
+  <meta name="keywords" content="Albert Saputra Zebua, Software Engineer, Data Scientist, Portofolio">
+  <meta name="author" content="Albert Saputra Zebua">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Albert Saputra Zebua</h1>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="resume.pdf" download>Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <button id="dark-mode-toggle">Dark Mode</button>
+
+  <section id="hero">
+    <div class="hero-content">
+      <img src="images/Albert Saputra Zebua_412020012.png" alt="Foto Albert Saputra Zebua" class="profile-photo">
+      <h2>Selamat Datang di Portofolio Saya</h2>
+      <p>Software Engineer & Data Scientist | Passionate Problem Solver</p>
+      <a href="#contact" class="cta">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 data-aos="fade-up">Tentang Saya</h2>
+    <div class="profile-section">
+      <img src="images/Albert Saputra Zebua_412020012.png" alt="Foto Albert Saputra Zebua" class="profile-photo">
+      <div class="profile-text">
+        <p style="text-align: justify;">Halo! Saya Albert Saputra Zebua, mahasiswa lulusan UKRIDA (freshgraduate) di bidang Informatika dengan minat dalam pengembangan perangkat lunak, analisis data, dan keamanan siber. Saya percaya bahwa teknologi dapat digunakan untuk menciptakan solusi yang berdampak positif.</p>
+        <p style="text-align: justify;">Saya memiliki pengalaman sebagai IT Trainer, Cybersecurity Intern, dan Lecture Assistant yang memperkuat kemampuan saya dalam pemrograman, pengelolaan data, dan pengajaran. Saya selalu antusias untuk belajar hal baru dan memberikan kontribusi nyata melalui teknologi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Pengalaman</h2>
+    <div class="timeline">
+      <div class="timeline-item" style="border: 1px solid #f4a261; padding: 1rem; margin-bottom: 1rem; border-radius: 8px;">
+        <h3>IT Trainer</h3>
+        <p>Metrodata Academy | Agu 2023 - Des 2023</p>
+        <ul>
+          <li>Melatih penggunaan teknologi .NET dan Power BI.</li>
+          <li>Mengembangkan dashboard interaktif untuk analisis data.</li>
+        </ul>
+      </div>
+      <div class="timeline-item" style="border: 1px solid #f4a261; padding: 1rem; margin-bottom: 1rem; border-radius: 8px;">
+        <h3>Cybersecurity Intern</h3>
+        <p>Tekna Cloud.ID | Mar 2024 - Jul 2024</p>
+        <ul>
+          <li>Mengembangkan sistem enkripsi dan dekripsi data menggunakan AES.</li>
+          <li>Implementasi SFTP untuk transfer data yang aman.</li>
+        </ul>
+      </div>
+      <div class="timeline-item" style="border: 1px solid #f4a261; padding: 1rem; margin-bottom: 1rem; border-radius: 8px;">
+        <h3>Lecture Assistant</h3>
+        <p>UKRIDA | Agu 2024 - Des 2024</p>
+        <ul>
+          <li>Membantu persiapan materi kuliah di bidang Machine Learning, Computer Vision, dan Data Mining.</li>
+          <li>Membimbing mahasiswa dalam praktikum dengan teknologi seperti TensorFlow, Keras, dan OpenCV.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Keahlian</h2>
+    <div class="skills-slider">
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React.js</div>
+      <div class="skill">PHP</div>
+      <div class="skill">TensorFlow</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">MySQL</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    <div class="project-container">
+      <div class="project-item">
+        <h3>Dashboard Statistik UKRIDA</h3>
+        <p>Visualisasi data akademik berbasis dashboard interaktif.</p>
+        <a href="https://albertsaputrazebua.github.io/Dashboard-Statistik-UKRIDA/" target="_blank" class="project-button">Lihat Website</a>
+      </div>
+      <div class="project-item">
+        <h3>To Do List</h3>
+        <p>Aplikasi manajemen tugas sederhana dengan fitur CRUD.</p>
+        <a href="https://albertsaputrazebua.github.io/To-do-list/" target="_blank" class="project-button">Lihat Website</a>
+      </div>
+      <div class="project-item">
+        <h3>E-Commerce</h3>
+        <p>Website landing page e-commerce modern dan responsif.</p>
+        <a href="https://albertsaputrazebua.github.io/ecommerce-one-page/" target="_blank" class="project-button">Lihat Website</a>
+      </div>
+      <div class="project-item">
+        <h3>Dashboard Admin</h3>
+        <p>Dashboard untuk manajemen data bisnis berbasis web.</p>
+        <a href="https://albertsaputrazebua.github.io/dashboard-admin/" target="_blank" class="project-button">Lihat Website</a>
+      </div>
+      <div class="project-item">
+        <h3>Business Financial Freedom</h3>
+        <p>Simulasi keuangan bisnis untuk perencanaan masa depan.</p>
+        <a href="https://albertsaputrazebua.github.io/bussiness-financial-freedom/" target="_blank" class="project-button">Lihat Website</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <div class="contact-container">
+      <div class="contact-item">
+        <a href="mailto:albertsaputrazebua@gmail.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="https://linkedin.com/in/albert-saputra-zebua" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="https://wa.me/6281219300633" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="https://www.instagram.com/albert.zb10/" target="_blank">
+          <i class="fab fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 Albert Saputra Zebua. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/albert-saputra-zebua" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:albertsaputrazebua@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.instagram.com/albert.zb10/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
